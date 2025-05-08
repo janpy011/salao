@@ -355,6 +355,9 @@ body {
 @media screen and (max-width: 768px) {
   .conteudo_inicio {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em 1em;
   }
   .conteudo_inicio .titulo_inicio {
     margin: 60px 0 50px;
@@ -362,20 +365,72 @@ body {
   .conteudo_inicio .titulo_inicio h1 {
     font-size: 30px;
   }
+  .conteudo_inicio .titulo_inicio p {
+    font-size: 13px;
+  }
   .conteudo_inicio .foto1 {
     margin: -20px 0 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   .conteudo_inicio .foto1 img {
-    width: 250px;
+    width: 90%;
+    max-width: 250px;
+    height: auto;
   }
   .titulos {
     margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   .sobre {
     flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 2em 1em;
   }
   .sobre .imgs_sobre {
     margin: 0 auto;
+    max-width: 90%;
+  }
+  .sobre .card_sobre {
+    width: 90%;
+    height: auto;
+    margin-top: 2em;
+  }
+  .sobre .card_sobre h3 {
+    font-size: 22px;
+  }
+  .sobre .card_sobre p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .servicos {
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em;
+  }
+  .servicos .servico_tipos {
+    width: 90%;
+  }
+  .enderecos {
+    width: 90%;
+    padding: 2em 1em;
+  }
+  .contato {
+    padding: 2em 1em;
+  }
+  .contato .card-contato {
+    width: 100%;
+  }
+  .footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .menu__nav ul {
+    width: 100%;
   }
 }
 /*ANIMAÇOES*/
